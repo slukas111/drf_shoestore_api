@@ -25,7 +25,7 @@ class App extends React.Component {
               Size: {p.size}<br/>
               Color: {p.color}<br/>
               Material: {p.material}<br/>
-              Manufacturer: {`${p.manufacturer.name}`}<br/>
+              Manufacturer: {p.manufacturer}<br/>
               Fasten-Type: {p.fasten_type}<br/>
               <br></br>
               </li>;
